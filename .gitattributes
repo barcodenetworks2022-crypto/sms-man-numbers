@@ -1,0 +1,10 @@
+# Default behavior
+# Text file normalization
+# Exclude build artifacts
+*.gif binary
+src/**/*.tsx linguist-detectable
+*.min.css linguist-generated
+*.json linguist-detectable=false
+public/** linguist-vendored
+
+*.bat text eol=crlf
